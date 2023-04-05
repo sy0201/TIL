@@ -24,10 +24,10 @@ Enum은 값 형식으로 Stack에 저장되어 성능면에서도 향상된다.
 
 ```swift
 enum CompassPoint {
-		case north
-		case south
-		case east
-		case west
+	case north
+	case south
+	case east
+	case west
 }
 ```
 swift에서 열거형은 생성시 각 case별로 기본 Integer값을 할당하지 않는다. 대신 Swift에서 열거형의 각 case는 CompassPoint으로 선언된 온전한 값이다.
